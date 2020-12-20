@@ -55,6 +55,7 @@ const Layout = ({ children, location }) => {
     }
     if (location.hash) {
       const id = location.hash.substring(1); // location.hash without the '#'
+
       setTimeout(() => {
         const el = document.getElementById(id);
         if (el) {

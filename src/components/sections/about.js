@@ -132,7 +132,21 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML & (S)CSS',
+    'React',
+    'Express',
+    'Node.js',
+    'MongoBD',
+    'Redux',
+    'Typescript',
+    'Ruby',
+    'Ruby on Rails',
+    'Git',
+    'NPM',
+    'SQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +155,19 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Angelo, a software engineer based in NewYork, NY.</p>
 
             <p>
               I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              applications, or anything in between. My goal is to grow in the industry that I love
+              so much by providing amazing experiences through code.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Coding since freshman year of highschool After attending two years of college for
+              biology, I realized that my passion for software engineering was calling for me.
+              Rather than change my major and take another 4 years of college, I decided to attend
+              <a href="https://flatironschool.com/"> Flatiron's immersive bootcamp </a>!
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
