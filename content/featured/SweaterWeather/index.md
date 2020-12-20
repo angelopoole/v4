@@ -8,6 +8,7 @@ tech:
   - React.js
   - Redux
   - weatherbit api
+  - styled-components
 showInProjects: true
 ---
 

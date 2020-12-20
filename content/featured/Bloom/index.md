@@ -1,15 +1,15 @@
 ---
-date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '3'
+title: 'Bloom'
+cover: './Bloom.png'
+github: 'https://github.com/angelopoole/Bloom-FrontEnd'
+github2: 'https://github.com/angelopoole/Bloom-Backend'
+external: 'https://angelopoole.github.io/Bloom-FrontEnd/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - JavaScript[ES5 & ES6]
+  - Ruby On Rails
+  - HTML & CSS
+  - Howler js
 showInProjects: true
 ---
 

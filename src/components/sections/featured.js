@@ -267,6 +267,7 @@ const Featured = () => {
               tech
               github
               external
+              github2
             }
             html
           }
@@ -294,7 +295,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, github2 } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -314,6 +315,11 @@ const Featured = () => {
                   <div className="project-links">
                     {github && (
                       <a href={github} aria-label="GitHub Link">
+                        <Icon name="GitHub" />
+                      </a>
+                    )}
+                    {github2 && (
+                      <a href={github2} aria-label="GitHub2 Link">
                         <Icon name="GitHub" />
                       </a>
                     )}

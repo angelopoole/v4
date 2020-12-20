@@ -1,6 +1,6 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
+title: 'Summer software engineer intern'
 company: 'Accenture'
 location: 'NewYork, NY'
 range: 'july - September 2016'

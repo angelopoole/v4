@@ -167,6 +167,7 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
+                    github2,
                     external,
                     ios,
                     android,
@@ -204,6 +205,11 @@ const ArchivePage = ({ location, data }) => {
                           )}
                           {github && (
                             <a href={github} aria-label="GitHub Link">
+                              <Icon name="GitHub" />
+                            </a>
+                          )}
+                          {github2 && (
+                            <a href={github2} aria-label="GitHub2 Link">
                               <Icon name="GitHub" />
                             </a>
                           )}
@@ -249,9 +255,9 @@ export const pageQuery = graphql`
             title
             tech
             github
+            github2
             external
-            ios
-            android
+
             company
           }
           html
@@ -260,3 +266,33 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// inside edges/node/formatter there was an ios format. this means you can remove and add formatted bits if you want to get more info from the /md files, dont forget to add them to the top level map and give the label typing
+
+// {ios && (
+//   <a href={ios} aria-label="Apple App Store Link">
+//     <Icon name="AppStore" />
+//   </a>
+// )}
+// ios is disabled for now, its dead code but may be usefull in the future.
+
+// ---
+// date: '2019-11-12'
+// title: 'Moms Demand Action Mobile App'
+// github: ''
+// external: 'https://www.upstatement.com/work/moms-demand-action/'
+// # ios: 'https://apps.apple.com/us/app/demand-action/id1475502876'
+// android: 'https://play.google.com/store/apps/details?id=com.momsdemandaction.app'
+// tech:
+//   - NativeScript Vue
+//   - iOS
+//   - Android
+// company: 'Upstatement'
+// showInProjects: false
+// ---
+
+// above is an example of the project file, the ios key when removed caused app crashes.
+
+// The same is true with the =>
+// android field
+// again, dead code, but it may be usefull in the future whenever i create an android app
