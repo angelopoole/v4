@@ -7,9 +7,9 @@ external: 'https://angelopoole-sweaterweather.netlify.app/'
 tech:
   - React.js
   - Redux
-  - weatherbit api
+  - weatherbit.api
   - styled-components
 showInProjects: true
 ---
 
-A quick way to look at your weekly forcast. You can switch between farenheight and celcius and it will tell you if you should wear a coat or sweater!
+A quick way to look at your weekly forecast. You can switch between fahrenheit and celcius and it will suggest the outerwear appropriate for the weather!

@@ -51,7 +51,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I'm looking for opportunities! my inbox is always open. If you have a question, job offer,
+        I'm looking for opportunities! My inbox is always open. If you have a question, job offer,
         or something to say, drop me a message!
       </p>
 

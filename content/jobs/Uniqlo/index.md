@@ -1,9 +1,9 @@
 ---
 date: '09/2019'
-title: 'Retail employee'
+title: 'Sales Associate'
 company: 'Uniqlo'
 location: 'NewYork, NY'
-range: 'September - December 2019'
+range: 'September 2019 - December 2019'
 url: 'https://uniqlo.com'
 ---
 
