@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-A quick way to look at your weekly forecast. You can switch between fahrenheit and celcius and it will suggest the outerwear appropriate for the weather!
+A quick way to look at your weekly forecast. You can switch between Fahrenheit and Celsius and it will suggest the outerwear appropriate for the weather!
