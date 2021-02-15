@@ -13,4 +13,5 @@ tech:
 showInProjects: true
 ---
 
+!⚠️ Hosted with heroku, resources will take some time to spin up ⚠️!
 A project centered around creating a soundbar that can layer sounds and replicate the results based on the sounds passed to it. coded in vanilla js
