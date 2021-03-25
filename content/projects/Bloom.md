@@ -1,7 +1,7 @@
 ---
-date: '3'
+date: '2020'
 title: 'Bloom'
-cover: './Bloom.png'
+# cover: './Bloom.png'
 github: 'https://github.com/angelopoole/Bloom-FrontEnd'
 github2: 'https://github.com/angelopoole/Bloom-Backend'
 external: 'https://angelopoole.github.io/Bloom-FrontEnd/'
@@ -10,6 +10,8 @@ tech:
   - Ruby On Rails
   - HTML & CSS
   - Howler js
+
+company: 'AngeloP'
 showInProjects: true
 ---
 
