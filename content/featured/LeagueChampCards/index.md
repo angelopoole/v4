@@ -3,7 +3,7 @@ date: '3'
 title: 'LeagueChampCards'
 cover: './leagueChampCard.png'
 github: 'https://github.com/angelopoole/LeagueChamp'
-external: 'http://p5raycasting.herokuapp.com/'
+external: 'https://league-champ-cards.herokuapp.com'
 tech:
   - React
   - Express
